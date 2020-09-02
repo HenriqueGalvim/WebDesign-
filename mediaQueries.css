@@ -1,0 +1,150 @@
+/*Media queries*/
+/*320px ate 360px*/
+@media only screen and (min-width: 320px) and (max-width:359px){
+	.container{
+		width: 80%;
+
+	}
+
+	.quadrado{
+		    transform: translate(8rem,1.5rem);
+
+	}
+	.container h2{
+		    transform: translate(-3.8rem,0);
+	}
+	.campos1,
+	 .campos2,
+	  .campos3,
+	   .campos4,
+	    .campos5, 
+	     .campos6, 
+	      .campos7, 
+	       .campos8, 
+	        .campos9, 
+	         .campos10{
+	         	    width: 84%;
+				transform: translateX(1.5rem);
+	}
+	form i {
+    transform: translateX(-0.2rem);
+}
+	.termos{
+	display: inline-block;
+	transform: translate(-1rem,-1rem);
+}
+}
+
+	/*Fim 320px ate 360px*/
+
+	/*360px ate 400px*/
+@media only screen and (min-width: 360px) and (max-width:400px){
+	.container{
+		width: 80%;
+
+	}
+
+	.quadrado{
+		    transform: translate(8rem,1.5rem);
+
+	}
+	.container h2{
+		    transform: translate(-5rem,0);
+	}
+	.campos1,
+	 .campos2,
+	  .campos3,
+	   .campos4,
+	    .campos5, 
+	     .campos6, 
+	      .campos7, 
+	       .campos8, 
+	        .campos9, 
+	         .campos10{
+
+				transform: translateX(1.5rem);
+	}
+	form i {
+    transform: translateX(-0.2rem);
+}
+	.termos{
+	display: inline-block;
+	transform: translate(-2rem,-1rem);
+}
+}
+
+	/*Fim 360px ate 400px*/
+
+	/*400px ate 500px*/
+@media only screen and (min-width:401px) and (max-width:500px){
+	.container{
+		width: 80%;
+
+	}
+
+	.quadrado{
+		    transform: translate(8rem,1.5rem);
+
+	}
+	.container h2{
+		    transform: translate(-5rem,0);
+	}
+	.campos1,
+	 .campos2,
+	  .campos3,
+	   .campos4,
+	    .campos5, 
+	     .campos6, 
+	      .campos7, 
+	       .campos8, 
+	        .campos9, 
+	         .campos10{
+
+				transform: translateX(1.5rem);
+	}
+	form i {
+    transform: translateX(-0.2rem);
+	}
+	.termos{
+	display: inline-block;
+	transform: translate(-2rem,-1rem);
+	}
+}
+	/*Fim 400px ate 500px*/
+	/*500px ate 600px*/
+@media only screen and (min-width:501px) and (max-width:600px){
+	.container{
+		width: 80%;
+
+	}
+
+	.quadrado{
+		    transform: translate(8rem,1.5rem);
+
+	}
+	.container h2{
+		    transform: translate(-6.8rem,0);
+	}
+	.campos1,
+	 .campos2,
+	  .campos3,
+	   .campos4,
+	    .campos5, 
+	     .campos6, 
+	      .campos7, 
+	       .campos8, 
+	        .campos9, 
+	         .campos10{
+
+				transform: translateX(1.5rem);
+	}
+	form i {
+    transform: translateX(-0.2rem);
+	}
+	.termos{
+	display: inline-block;
+	transform: translate(-2rem,-1rem);
+	}
+}
+	/*Fim 500px ate 600px*/
+/*FimMedia queries*/
