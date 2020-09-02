@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=10, minimum-scale=1.0">
+	<title>Cadastro do Aluno</title>
+	<link rel="stylesheet" href="estilos.css">
+	<script src="https://kit.fontawesome.com/0e4255d12b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<section class="container">
+		<span class="quadrado"> </span>
+		<h1> CADASTRO DO VESTIBULANDO</h1> <br>
+		<form action="" method="post" accept-charset="utf-8">
+			<h2>Dados pessoais</h2>
+
+			<div class="campos1">
+				<label for="Primeiro-nome"></label> <br>
+					<i class="fas fa-user"></i>
+					<input type="text" id="Primeiro-nome" class="atencao" name="Primeiro-nome" placeholder="Nome">
+			</div>
+			<div class="campos2">
+				<label for="Segundo-nome"></label> <br>
+					<i class="fas fa-user"></i>
+					<input type="text" id="Segundo-nome" class="atencao" name="Segundo-nome" placeholder="Sobrenome">
+			</div>
+			<div class="campos3">
+				<label for="CPF"></label> <br>
+					<i class="fas fa-lock"></i>
+					<input type="number" id="CPF" class="atencao" name="CPF" placeholder="CPF">
+			</div>
+			<div class="campos4">
+				<label for="data"></label> <br>
+					<i class="fas fa-calendar-alt"></i>
+					<input type="date" id="data" class="atencao" name="data" >
+			</div>
+			<div class="campos5">
+				<label for="genero"></label> <br>
+					<i class="fas fa-user-friends"></i>
+					<select name="genero">
+						<option value="1">Feminino</option>
+						<option value="2">Masculino</option>	
+					</select>
+			</div>
+
+			<h2> Dados Externos </h2>
+			<div class="campos6">
+				<label for="telefone"></label> <br>
+					<i class="fas fa-phone-alt"></i>
+				    <input type="tel" id="tel" class="atencao" name="telefone" placeholder="Ex: (XX) 0 0000-0000">	
+			</div>
+			<div class="campos7">
+				<label for="Cidade"></label> <br>
+					<i class="far fa-map"></i>
+					<input type="text" id="cidade" class="atencao" name="Cidade" placeholder="Cidade">
+			</div>
+			<div class="campos8">
+				<label for="gmail"></label> <br>
+					<i class="far fa-envelope"></i>
+					<input type="email" id="gmail" class="atencao" name="gmail" placeholder="nome@gmail.com">
+			</div>
+			<div class="campos9">
+				<label for="senha"></label> <br>
+					<i class="fas fa-lock"></i>
+					<input type="password" id="senha" class="atencao" name="senha" placeholder="senha mais de 6 caracteres">
+			</div>
+			<div class="campos10">
+				<label for="confirmarS"></label> <br>
+					<i class="fas fa-lock"></i>
+					<input type="password" id="senha" class="atencao" name="confirmarS" placeholder="Confirmar senha">	
+			</div>
+			<div class="termos">
+				<label for="chek"></label> <br>
+					<input type="checkbox" id="termos" class="atencao" name="chek">
+					<span class="span1">Aceito os <span class="span2">termos e condições</span></span>	
+			</div>
+			<label for="botao"></label> <br>
+			    <input type="submit" id="botao" class="atencao" name="botao" value="Cadastrar">	
+
+			    <!-- <input type="reset" value"Resetar dados"> -->
+		
+			    <p>Já é cadastrado? <a href="#"> Entre aqui </a> </p>
+			
+		</form>
+	</section>
+	
+</body>
+</html>
