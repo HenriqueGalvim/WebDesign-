@@ -130,6 +130,38 @@ h1{
 	width: 88%;
 	transform: translateX(2rem);
 }
+.campos1,
+.campos2,
+.campos3,
+.campos4,
+.campos5,
+.campos6,
+.campos7,
+.campos8,
+.campos9,
+.campos10{
+	animation: cores 100s ease-in-out 3 alternate;
+}
+.campos1:hover,
+.campos2:hover,
+.campos3:hover,
+.campos4:hover,
+.campos5:hover,
+.campos6:hover,
+.campos7:hover,
+.campos8:hover,
+.campos9:hover,
+.campos10:hover{
+	animation: paused;
+}
+
+
+@Keyframes cores{
+	to{
+	box-shadow: 2px -2px 15px 3px rgba(235,7,7,1);
+	}
+}
+
 form i{
 	transform: translateX(-0.5rem);
 	
